@@ -1,0 +1,14 @@
+.key-visual {
+  height: 280px;
+  background: #999;
+  position: relative;
+  margin: 0 calc(50% - 50vw);
+  margin-bottom: 80px;
+}
+.key-visual > .txt-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=hero.module.css.map */

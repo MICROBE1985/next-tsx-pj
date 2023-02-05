@@ -1,0 +1,2 @@
+.f-wrap{composes:container from "utils.module.css";margin:auto;display:flex;flex-direction:row;justify-content:space-between;align-items:flex-start;padding:30px 0}.f-navlist{display:flex;flex-direction:row;justify-content:flex-end;align-items:center;-moz-column-gap:20px;column-gap:20px}.f-navlist>li>a{display:block;transition:.3s}.f-navlist>li>a:hover{color:#ddd}
+/*# sourceMappingURL=footer.module.min.css.map */
