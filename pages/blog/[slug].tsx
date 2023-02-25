@@ -34,7 +34,7 @@ export async function getStaticProps(context: GetStaticPropsContext) {
 
   return {
     props: {
-      hoge: "ここで「hoge」を指定している",
+      // hoge: "ここで「hoge」を指定している",
       title: post.title,
       publish: post.publishDate,
       content: post.content,
