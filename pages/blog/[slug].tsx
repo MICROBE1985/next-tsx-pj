@@ -40,6 +40,7 @@ export async function getStaticProps(context: GetStaticPropsContext) {
       content: post.content,
       eyecatch: post.eyecatch,
       categories: post.categories,
+      mentalmap: post.mentalmap,
     },
   };
 }
@@ -54,6 +55,7 @@ type Props = {
   title: string;
   publish: string;
   content: string;
+  mentalmap: string;
   eyecatch: Eyecatch;
   categories: Array<{ name: string; slug: string }>;
 };
@@ -65,6 +67,7 @@ export default function Schedule({
   content,
   eyecatch,
   categories,
+  mentalmap,
 }: Props) {
   return (
     // JSX
@@ -87,6 +90,7 @@ export default function Schedule({
           </li>
         ))}
       </ul>
+      <div dangerouslySetInnerHTML={{ __html: mentalmap }} />
       <div dangerouslySetInnerHTML={{ __html: content }} />
     </>
   );
